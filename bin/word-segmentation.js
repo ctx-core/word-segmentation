@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-require = require('esm')(module)
-const { createInterface } = require('readline')
-const { _queue } = require('@ctx-core/queue')
-const { segment__words } = require('../lib')
+import { createInterface } from 'readline'
+import { _queue } from '@ctx-core/queue'
+import { segment__words } from '../lib'
 main()
 async function main() {
 	const rl__stdin = createInterface(process.stdin)
