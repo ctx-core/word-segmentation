@@ -1,7 +1,7 @@
 {
 	"name": "@ctx-core/word-segmentation",
 	"description": "Splits compound words into separate words using aspell",
-	"version": "2.1.48",
+	"version": "2.1.49",
 	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -28,8 +28,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.19",
-		"@ctx-core/function": "^13.0.4",
+		"@ctx-core/array": "^15.5.20",
+		"@ctx-core/function": "^13.0.5",
 		"@ctx-core/queue": "^1.2.20",
 		"@ctx-core/string": "^4.3.19",
 		"memory-streams": "^0.1.3"
