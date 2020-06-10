@@ -277,9 +277,7 @@ async function __line__top(this:Aspell__top, line) {
 		compound_word_a1 = await _compound_word_a1(word, aspell__compound)
 		resolve(compound_word_a1)
 	} catch (err) {
-		console.error('error|debug|1')
 		console.error(err)
-		console.debug('error|debug|1')
 		console.debug(err)
 		reject(err)
 	}
