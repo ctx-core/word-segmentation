@@ -2,9 +2,9 @@
 	"name": "@ctx-core/word-segmentation",
 	"description": "Splits compound words into separate words using aspell",
 	"version": "2.1.56",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
