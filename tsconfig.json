@@ -21,9 +21,12 @@
 			"node_modules/@types"
 		],
 		"outDir": ".",
-		"declarationDir": "."
+		"declarationDir": ".",
+		"importsNotUsedAsValues": "error"
 	},
-	"exclude": ["node_modules"],
+	"exclude": [
+		"node_modules"
+	],
 	"lib": [
 		"dom"
 	],
