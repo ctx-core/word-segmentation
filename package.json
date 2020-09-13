@@ -6,7 +6,7 @@
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"exec": "$@"
 	},
 	"repository": {
 		"type": "git",
@@ -37,5 +37,5 @@
 	"devDependencies": {
 		"typescript": "^4.0.2"
 	},
-	"gitHead": "f5487baa5b1f08b243d8cc67c336883f3c0bcf3a"
+	"gitHead": "bec40915df6060ac0a518a666a2c8c3f759a5866"
 }
