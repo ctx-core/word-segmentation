@@ -1,5 +1,19 @@
 # @ctx-core/word-segmentation
 
+## 3.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.0
+  - @ctx-core/function@16.0.0
+  - @ctx-core/queue@2.0.0
+  - @ctx-core/string@5.0.0
+
 ## 2.1.86
 
 ### Patch Changes

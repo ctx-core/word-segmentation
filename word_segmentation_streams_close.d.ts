@@ -1,0 +1,2 @@
+export declare function word_segmentation_streams_close(streams__word_segmentation: any): void;
+export declare const close__streams__word_segmentation: typeof word_segmentation_streams_close;
