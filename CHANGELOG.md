@@ -1,5 +1,13 @@
 # @ctx-core/word-segmentation
 
+## 3.0.3
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.2
+
 ## 3.0.2
 
 ### Patch Changes
