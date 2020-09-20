@@ -1,41 +1,41 @@
 {
-	"name": "@ctx-core/word-segmentation",
-	"version": "3.0.3",
-	"description": "Splits compound words into separate words using aspell",
-	"keywords": [
-		"ctx-core",
-		"words",
-		"aspell"
-	],
-	"homepage": "https://github.com/ctx-core/word-segmentation#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/word-segmentation/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/word-segmentation/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run compile",
-		"exec": "$@"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:^19.0.2",
-		"@ctx-core/function": "workspace:^16.0.0",
-		"@ctx-core/queue": "workspace:^2.0.1",
-		"@ctx-core/string": "workspace:^5.0.0",
-		"esm": "^3.2.25",
-		"memory-streams": "^0.1.3"
-	},
-	"devDependencies": {
-		"typescript": "^4.0.3"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@ctx-core/word-segmentation",
+  "version": "3.0.4",
+  "description": "Splits compound words into separate words using aspell",
+  "keywords": [
+    "ctx-core",
+    "words",
+    "aspell"
+  ],
+  "homepage": "https://github.com/ctx-core/word-segmentation#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/word-segmentation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/word-segmentation/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run compile",
+    "exec": "$@"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:^19.0.3",
+    "@ctx-core/function": "workspace:^16.0.0",
+    "@ctx-core/queue": "workspace:^2.0.1",
+    "@ctx-core/string": "workspace:^5.0.0",
+    "esm": "^3.2.25",
+    "memory-streams": "^0.1.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
