@@ -1,5 +1,15 @@
 # @ctx-core/word-segmentation
 
+## 3.0.7
+
+### Patch Changes
+
+- stricter type checking of generics
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.1.0
+  - @ctx-core/array@19.0.5
+
 ## 3.0.6
 
 ### Patch Changes

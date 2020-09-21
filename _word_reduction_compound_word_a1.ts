@@ -3,7 +3,7 @@ import { _backward_word_reduction_compound_word_a2 } from './_backward_word_redu
 export async function _word_reduction_compound_word_a1(word, compound_aspell):Promise<string[]> {
 	const compound_word_a2 = await _backward_word_reduction_compound_word_a2(word, compound_aspell)
 	const cleaned_compound_word_a3 =
-		map<string[][], string[][][]>(compound_word_a2, compound_word_a1=>{
+		map<string[], string[][]>(compound_word_a2, compound_word_a1=>{
 			const compound_word_a1__cleaned =
 				reject__a1(compound_word_a1,
 					(compound_word:string)=>

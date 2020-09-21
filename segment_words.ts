@@ -31,7 +31,7 @@ export async function segment_words(
 	async function _corrected_word_token_a2() {
 		const token_a1 = _token_a1(phrases)
 		const promise_a1 =
-			map<string[], Promise<string[]>[]>(token_a1,
+			map<string, Promise<string[]>>(token_a1,
 				token=>new Promise(async resolve=>{
 					if (!token) {
 						resolve([''])
