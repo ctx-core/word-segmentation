@@ -28,7 +28,7 @@
 		"@ctx-core/array": "workspace:^19.0.21",
 		"@ctx-core/function": "workspace:^16.1.2",
 		"@ctx-core/queue": "workspace:^2.0.3",
-		"@ctx-core/string": "workspace:^5.0.1",
+		"@ctx-core/string": "workspace:^5.0.2",
 		"esm": "^3.2.25",
 		"memory-streams": "^0.1.3"
 	},
