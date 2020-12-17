@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 3.0.34
+
+### Patch Changes
+
+- interface instead of type: aspell_queue_obj_type,words_segment_opts_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/function@16.1.5
+
 ## 3.0.33
 
 ### Patch Changes
