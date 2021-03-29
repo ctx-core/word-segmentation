@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 4.0.30
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/function@17.4.3
+  - @ctx-core/queue@3.0.7
+  - @ctx-core/string@6.1.17
+
 ## 4.0.29
 
 ### Patch Changes
