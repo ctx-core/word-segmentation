@@ -1,7 +1,7 @@
-import { Aspell__compound } from './Aspell__compound'
+import { CompoundAspell } from './CompoundAspell'
 import { Aspell__top } from './Aspell__top'
 export function _word_segmentation_streams() {
-	const compound_aspell = new Aspell__compound()
+	const compound_aspell = new CompoundAspell()
 	const top_aspell = new Aspell__top(compound_aspell)
 	return {
 		top_aspell,

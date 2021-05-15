@@ -1,5 +1,19 @@
 # @ctx-core/word-segmentation
 
+## 4.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/queue@3.1.0
+  - @ctx-core/string@6.2.0
+
 ## 4.0.53
 
 ### Patch Changes

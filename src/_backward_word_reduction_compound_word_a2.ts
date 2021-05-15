@@ -1,5 +1,6 @@
 import { each, sort } from '@ctx-core/array'
-export async function _backward_word_reduction_compound_word_a2(word, compound_aspell):Promise<string[][]> {
+import type { Aspell } from './Aspell'
+export async function _backward_word_reduction_compound_word_a2(word:string, compound_aspell:Aspell):Promise<string[][]> {
 	if (!word) return []
 	const word_a1 = await compound_aspell.run(word)
 	if (word_a1) {

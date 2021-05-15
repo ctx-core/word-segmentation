@@ -1,7 +1,6 @@
 import { map } from '@ctx-core/array'
 import { _title_case } from '@ctx-core/string'
-import type { maybe } from '@ctx-core/function'
-export function _aspell_line_compound_title_case(line):maybe<string[], undefined> {
+export function _aspell_line_compound_title_case(line:string):string[]|undefined {
 	const line_a1 = line.split(': ')
 	const word = line_a1[0].split(' ')[1]
 	const alt_word = line_a1[1].split(', ')[0]
@@ -12,4 +11,4 @@ export function _aspell_line_compound_title_case(line):maybe<string[], undefined
 	) return
 	return map(alt_a1, _title_case)
 }
-export const _title_case__compound__line__aspell = _aspell_line_compound_title_case 
+export { _aspell_line_compound_title_case as _title_case__compound__line__aspell }

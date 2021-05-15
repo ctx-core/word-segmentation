@@ -1,6 +1,7 @@
 import { map, reduce, reject as reject__a1, sort } from '@ctx-core/array'
 import { _backward_word_reduction_compound_word_a2 } from './_backward_word_reduction_compound_word_a2'
-export async function _word_reduction_compound_word_a1(word, compound_aspell):Promise<string[]> {
+import type { Aspell } from './Aspell'
+export async function _word_reduction_compound_word_a1(word:string, compound_aspell:Aspell):Promise<string[]> {
 	const compound_word_a2 = await _backward_word_reduction_compound_word_a2(word, compound_aspell)
 	const cleaned_compound_word_a3 =
 		map<string[], string[][]>(compound_word_a2, compound_word_a1=>{
@@ -20,11 +21,11 @@ export async function _word_reduction_compound_word_a1(word, compound_aspell):Pr
 			} else if (l.length > r.length) {
 				return 1
 			}
-			const _sum__lt__3 = (sum__lt__3, word)=>{
-				return sum__lt__3 + Math.max(3 - word.length, 0)
+			const _lt_3_sum = (lt_3_sum:number, word:string)=>{
+				return lt_3_sum + Math.max(3 - word.length, 0)
 			}
-			const lt_3_l_sum = reduce(cleaned_l_compound_word_a1, _sum__lt__3, 0)
-			const lt_3_r_sum = reduce(cleaned_r_compound_word_a1, _sum__lt__3, 0)
+			const lt_3_l_sum = reduce(cleaned_l_compound_word_a1, _lt_3_sum, 0)
+			const lt_3_r_sum = reduce(cleaned_r_compound_word_a1, _lt_3_sum, 0)
 			if (lt_3_l_sum < lt_3_r_sum) {
 				return -1
 			}

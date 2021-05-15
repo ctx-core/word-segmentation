@@ -1,10 +1,10 @@
 import { flatten, map } from '@ctx-core/array'
-import { Aspell__compound } from './Aspell__compound'
+import { CompoundAspell } from './CompoundAspell'
 import { Aspell__top } from './Aspell__top'
 import { _token_a1 } from './_token_a1'
 import type { words_segment_opts_type } from './words_segment_opts_type'
 export async function segment_words(
-	phrases,
+	phrases:string,
 	{
 		top_aspell,
 		compound_aspell,
@@ -12,7 +12,7 @@ export async function segment_words(
 ) {
 	if (!phrases) return phrases
 	if (!compound_aspell) {
-		compound_aspell = new Aspell__compound()
+		compound_aspell = new CompoundAspell()
 	}
 	if (!top_aspell) {
 		top_aspell = new Aspell__top(compound_aspell)

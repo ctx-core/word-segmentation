@@ -1,6 +1,6 @@
 import type { Aspell__top } from './Aspell__top'
 import { _compound_word_a1 } from './_compound_word_a1'
-export async function __top_line(this:Aspell__top, line) {
+export async function __top_line(this:Aspell__top, line:string) {
 	if (!line) return
 	const {
 		queue: queue__top,

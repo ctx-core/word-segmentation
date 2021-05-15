@@ -4,7 +4,7 @@ import type { aspell_queue_obj_type } from './aspell_queue_obj_type'
 export class Aspell {
 	child_process:ChildProcessWithoutNullStreams
 	private $queue = [] as aspell_queue_obj_type[]
-	constructor(__line) {
+	constructor(__line:(line:string)=>void) {
 		this.child_process = spawn('aspell', ['-a'])
 		const { child_process } = this
 		child_process.stderr.pipe(process.stderr)
