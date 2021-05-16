@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 4.1.4
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.2
+  - @ctx-core/function@17.9.2
+  - @ctx-core/queue@3.1.2
+  - @ctx-core/string@6.2.4
+
 ## 4.1.3
 
 ### Patch Changes
