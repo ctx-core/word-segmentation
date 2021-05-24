@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 4.1.5
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/function@17.9.3
+  - @ctx-core/queue@3.1.3
+  - @ctx-core/string@6.2.5
+
 ## 4.1.4
 
 ### Patch Changes
