@@ -5,15 +5,15 @@ const { _queue } = require('@ctx-core/queue')
 const { segment__words } = require('../lib')
 main()
 async function main() {
-	const rl__stdin = createInterface(process.stdin)
+	const stdin_rl = createInterface(process.stdin)
 	const queue = _queue()
-	rl__stdin.on('line', line => {
+	stdin_rl.on('line', line => {
 		queue.add(async () => {
 			const compound_words = await segment__words(line)
 			process.stdout.write(`${compound_words}\n`)
 		})
 	})
-	rl__stdin.on('close', async () => {
+	stdin_rl.on('close', async () => {
 		await queue.close()
 		process.exit(0)
 	})
