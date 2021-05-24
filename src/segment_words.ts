@@ -47,4 +47,4 @@ export async function segment_words(
 		return await (Promise.all<string[]>(promise_a1))
 	}
 }
-export const segment__words = segment_words
+export { segment_words as segment__words }

@@ -1,5 +1,19 @@
 # @ctx-core/word-segmentation
 
+## 4.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/queue@3.2.0
+  - @ctx-core/string@6.3.0
+
 ## 4.1.5
 
 ### Patch Changes
