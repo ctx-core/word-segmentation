@@ -3,7 +3,7 @@ require = require('esm')(module)
 const { createInterface } = require('readline')
 const { _queue } = require('@ctx-core/queue')
 const { segment__words } = require('../lib')
-main()
+main().then()
 async function main() {
 	const stdin_rl = createInterface(process.stdin)
 	const queue = _queue()

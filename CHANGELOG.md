@@ -1,5 +1,13 @@
 # @ctx-core/word-segmentation
 
+## 4.2.2
+
+### Patch Changes
+
+- fix: bin/word-segmentation.js: call promise with then
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.2
+
 ## 4.2.1
 
 ### Patch Changes
