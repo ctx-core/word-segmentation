@@ -1,5 +1,19 @@
 # @ctx-core/word-segmentation
 
+## 4.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/function@17.11.0
+  - @ctx-core/queue@3.3.0
+  - @ctx-core/string@6.4.0
+
 ## 4.2.2
 
 ### Patch Changes

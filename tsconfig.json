@@ -24,13 +24,13 @@
 		"rootDir": "src",
 		"outDir": "dist",
 		"mapRoot": "dist",
-		"declarationDir": "types",
+		"declarationDir": "dist",
 		"importsNotUsedAsValues": "error",
 		"strict": true
 	},
 	"exclude": [
 		"node_modules",
-		"types"
+		"dist"
 	],
 	"lib": [
 		"dom",
