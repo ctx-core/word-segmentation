@@ -30,7 +30,7 @@ export async function segment_words(
 	)
 	async function _corrected_word_token_a2() {
 		const token_a1 = _token_a1(phrases)
-		const promise_a1 =
+		const promise_a =
 			map<string, Promise<string[]>>(token_a1,
 				token=>new Promise(async resolve=>{
 					if (!token) {
@@ -44,7 +44,7 @@ export async function segment_words(
 					const top_aspell_a1 = await top_aspell.run(token)
 					resolve(top_aspell_a1 || [])
 				}))
-		return await (Promise.all<string[]>(promise_a1))
+		return await (Promise.all<string[]>(promise_a))
 	}
 }
 export { segment_words as segment__words }
