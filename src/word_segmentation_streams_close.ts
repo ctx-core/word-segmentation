@@ -1,5 +1,5 @@
-import type { words_segment_opts_type } from './words_segment_opts_type'
-export function word_segmentation_streams_close(word_segmentation_streams:words_segment_opts_type) {
+import type { words_segment_opts_T } from './words_segment_opts_T'
+export function word_segmentation_streams_close(word_segmentation_streams:words_segment_opts_T) {
 	const {
 		top_aspell,
 		compound_aspell,

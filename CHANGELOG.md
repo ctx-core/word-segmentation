@@ -1,5 +1,12 @@
 # @ctx-core/word-segmentation
 
+## 5.1.0
+
+### Minor Changes
+
+- \_T for types
+- \_ suffix for factories
+
 ## 5.0.8
 
 ### Patch Changes
@@ -819,7 +826,7 @@
 
 ### Patch Changes
 
-- interface instead of type: aspell_queue_obj_type,words_segment_opts_type
+- interface instead of type: aspell_queue_obj_T,words_segment_opts_T
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]

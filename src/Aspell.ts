@@ -1,15 +1,15 @@
 import { ChildProcessWithoutNullStreams, spawn } from 'child_process'
 import { createInterface } from 'readline'
-import type { aspell_queue_obj_type } from './aspell_queue_obj_type'
+import type { aspell_queue_obj_T } from './aspell_queue_obj_T'
 export class Aspell {
 	child_process:ChildProcessWithoutNullStreams
-	private $queue = [] as aspell_queue_obj_type[]
-	constructor(__line:(line:string)=>void) {
+	private $queue = [] as aspell_queue_obj_T[]
+	constructor(line_cb:(line:string)=>void) {
 		this.child_process = spawn('aspell', ['-a'])
 		const { child_process } = this
 		child_process.stderr.pipe(process.stderr)
 		const rl = createInterface(child_process.stdout)
-		rl.on('line', __line.bind(this))
+		rl.on('line', line_cb.bind(this))
 	}
 	get queue() {
 		return this.$queue

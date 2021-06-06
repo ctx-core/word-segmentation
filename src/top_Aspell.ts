@@ -1,8 +1,8 @@
 import { Aspell } from './Aspell'
 import type { CompoundAspell } from './CompoundAspell'
-import { __top_line } from './__top_line'
-export class Aspell__top extends Aspell {
+import { top_line } from './top_line'
+export class top_Aspell extends Aspell {
 	constructor(public compound_aspell:CompoundAspell) {
-		super(__top_line)
+		super(top_line)
 	}
 }

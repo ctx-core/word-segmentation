@@ -1,28 +1,30 @@
 import { each, sort } from '@ctx-core/array'
 import type { Aspell } from './Aspell'
-export async function _backward_word_reduction_compound_word_a2(word:string, compound_aspell:Aspell):Promise<string[][]> {
+export async function backward_word_reduction_compound_word_a2_(
+	word:string, compound_aspell:Aspell
+):Promise<string[][]> {
 	if (!word) return []
-	const word_a1 = await compound_aspell.run(word)
-	if (word_a1) {
-		return [word_a1]
+	const word_a = await compound_aspell.run(word)
+	if (word_a) {
+		return [word_a]
 	}
 	const { length } = word
 	const valid_wordset_a2:string[][] = []
 	const begin_subword_a2:string[][] = []
 	for (let idx = length - 1; idx >= 0; idx -= 1) {
-		let begin_idx__candidate = 0
-		let end_idx__candidate = idx + 1
-		let begin_subword = word.slice(begin_idx__candidate, end_idx__candidate)
-		const begin_subword_a1 = await compound_aspell.run(begin_subword)
-		if (!begin_subword_a1) continue
-		begin_subword_a2.push(begin_subword_a1)
+		let candidate_begin_idx = 0
+		let candidate_end_idx = idx + 1
+		let begin_subword = word.slice(candidate_begin_idx, candidate_end_idx)
+		const begin_subword_a = await compound_aspell.run(begin_subword)
+		if (!begin_subword_a) continue
+		begin_subword_a2.push(begin_subword_a)
 	}
-	const starter_word_a1 = ['the', 'for']
+	const starter_word_a = ['the', 'for']
 	const begin_subword_a2__sort = sort(begin_subword_a2, (l:string[], r:string[])=>{
 			return (
-				(l.length === 1 && starter_word_a1.indexOf(l[0].toLowerCase()) > -1)
+				(l.length === 1 && starter_word_a.indexOf(l[0].toLowerCase()) > -1)
 				? -1
-				: (r.length === 1 && starter_word_a1.indexOf(r[0].toLowerCase()) > -1)
+				: (r.length === 1 && starter_word_a.indexOf(r[0].toLowerCase()) > -1)
 					? 1
 					//region plural word or next word begins with s?
 					: (
@@ -46,28 +48,28 @@ export async function _backward_word_reduction_compound_word_a2(word:string, com
 		}
 	)
 	for (let idx = 0; idx < begin_subword_a2__sort.length; idx += 1) {
-		const subword_a1 = begin_subword_a2[idx]
-		const [subword] = subword_a1
+		const subword_a = begin_subword_a2[idx]
+		const [subword] = subword_a
 		const rest_idx = subword.length
 		const subword__rest = word.slice(rest_idx)
-		const a1__subword_rest = await compound_aspell.run(subword__rest)
-		if (a1__subword_rest) {
-			valid_wordset_a2.push(subword_a1.concat(...a1__subword_rest))
+		const subword_rest_a = await compound_aspell.run(subword__rest)
+		if (subword_rest_a) {
+			valid_wordset_a2.push(subword_a.concat(...subword_rest_a))
 			break
 		}
-		const subword_a2__rest =
-			await _backward_word_reduction_compound_word_a2(
+		const rest_subword_a2 =
+			await backward_word_reduction_compound_word_a2_(
 				subword__rest,
 				compound_aspell)
-		each(subword_a2__rest, word_a1__rest=>
-			valid_wordset_a2.push(subword_a1.concat(...word_a1__rest))
+		each(rest_subword_a2, rest_word_a=>
+			valid_wordset_a2.push(subword_a.concat(...rest_word_a))
 		)
-		if (subword_a2__rest.length) {
-			if (starter_word_a1.indexOf(subword.toLowerCase()) > -1) {
+		if (rest_subword_a2.length) {
+			if (starter_word_a.indexOf(subword.toLowerCase()) > -1) {
 				continue
 			}
-			const next_subword_a1 = begin_subword_a2__sort[idx + 1]
-			const next_subword = next_subword_a1 && next_subword_a1[0]
+			const next_subword_a = begin_subword_a2__sort[idx + 1]
+			const next_subword = next_subword_a && next_subword_a[0]
 			if (
 				next_subword
 				&& (
@@ -84,4 +86,7 @@ export async function _backward_word_reduction_compound_word_a2(word:string, com
 		}
 	}
 	return valid_wordset_a2
+}
+export {
+	backward_word_reduction_compound_word_a2_ as _backward_word_reduction_compound_word_a2,
 }

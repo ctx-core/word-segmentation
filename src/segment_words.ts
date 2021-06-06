@@ -1,21 +1,21 @@
 import { flatten, map } from '@ctx-core/array'
 import { CompoundAspell } from './CompoundAspell'
-import { Aspell__top } from './Aspell__top'
-import { _token_a1 } from './_token_a1'
-import type { words_segment_opts_type } from './words_segment_opts_type'
+import { top_Aspell } from './top_Aspell'
+import { token_a_ } from './token_a_'
+import type { words_segment_opts_T } from './words_segment_opts_T'
 export async function segment_words(
 	phrases:string,
 	{
 		top_aspell,
 		compound_aspell,
-	} = {} as words_segment_opts_type
+	} = {} as words_segment_opts_T
 ) {
 	if (!phrases) return phrases
 	if (!compound_aspell) {
 		compound_aspell = new CompoundAspell()
 	}
 	if (!top_aspell) {
-		top_aspell = new Aspell__top(compound_aspell)
+		top_aspell = new top_Aspell(compound_aspell)
 	}
 	const corrected_word_token_a2 = await _corrected_word_token_a2()
 	return (
@@ -29,7 +29,7 @@ export async function segment_words(
 			.replace(/\s+/g, ' ')
 	)
 	async function _corrected_word_token_a2() {
-		const token_a1 = _token_a1(phrases)
+		const token_a1 = token_a_(phrases)
 		const promise_a =
 			map<string, Promise<string[]>>(token_a1,
 				token=>new Promise(async resolve=>{
