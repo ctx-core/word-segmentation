@@ -27,7 +27,7 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.2.0",
+		"@ctx-core/array": "workspace:^21.2.1",
 		"@ctx-core/function": "workspace:^18.1.0",
 		"@ctx-core/queue": "workspace:^4.0.0",
 		"@ctx-core/string": "workspace:^7.0.2",
