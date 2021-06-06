@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 5.1.4
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/function@18.1.2
+  - @ctx-core/queue@4.0.1
+  - @ctx-core/string@7.0.4
+
 ## 5.1.3
 
 ### Patch Changes
