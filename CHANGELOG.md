@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 5.1.5
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/function@18.1.3
+  - @ctx-core/queue@4.0.2
+  - @ctx-core/string@7.0.5
+
 ## 5.1.4
 
 ### Patch Changes
