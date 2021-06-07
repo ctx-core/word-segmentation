@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "5.1.5",
+	"version": "5.1.6",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.2.7",
+		"@ctx-core/array": "workspace:^21.2.8",
 		"@ctx-core/function": "workspace:^18.1.3",
 		"@ctx-core/queue": "workspace:^4.0.2",
 		"@ctx-core/string": "workspace:^7.0.5",
