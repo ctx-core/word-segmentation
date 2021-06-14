@@ -29,9 +29,9 @@ export async function segment_words(
 			.replace(/\s+/g, ' ')
 	)
 	async function _corrected_word_token_a2() {
-		const token_a1 = token_a_(phrases)
+		const token_a = token_a_(phrases)
 		const promise_a =
-			map<string, Promise<string[]>>(token_a1,
+			map<string, Promise<string[]>>(token_a,
 				token=>new Promise(async resolve=>{
 					if (!token) {
 						resolve([''])
@@ -41,8 +41,8 @@ export async function segment_words(
 						resolve([token])
 						return
 					}
-					const top_aspell_a1 = await top_aspell.run(token)
-					resolve(top_aspell_a1 || [])
+					const top_aspell_a = await top_aspell.run(token)
+					resolve(top_aspell_a || [])
 				}))
 		return await (Promise.all<string[]>(promise_a))
 	}

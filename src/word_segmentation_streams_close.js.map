@@ -1,0 +1,1 @@
+{"version":3,"file":"word_segmentation_streams_close.js","sourceRoot":"","sources":["../word_segmentation_streams_close.ts"],"names":[],"mappings":"AACA,MAAM,UAAU,+BAA+B,CAAC,yBAA8C;IAC7F,MAAM,EACL,UAAU,EACV,eAAe,GACf,GAAG,yBAAyB,CAAA;IAC7B,UAAU,CAAC,GAAG,EAAE,CAAA;IAChB,eAAe,CAAC,GAAG,EAAE,CAAA;AACtB,CAAC;AACD,OAAO,EAAE,+BAA+B,IAAI,iCAAiC,EAAE,CAAA"}
