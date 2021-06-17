@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 6.0.3
+
+### Patch Changes
+
+- typescript: ^4.3.2 -> ^4.3.3
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.3
+  - @ctx-core/function@19.1.1
+  - @ctx-core/queue@5.0.1
+  - @ctx-core/string@8.0.2
+
 ## 6.0.2
 
 ### Patch Changes
