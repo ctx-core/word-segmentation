@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 6.0.7
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.9
+  - @ctx-core/function@19.1.7
+  - @ctx-core/queue@5.0.7
+  - @ctx-core/string@8.0.8
+
 ## 6.0.6
 
 ### Patch Changes
