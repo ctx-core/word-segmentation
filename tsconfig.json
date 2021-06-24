@@ -26,15 +26,12 @@
 		"mapRoot": "src",
 		"declarationDir": "src",
 		"importsNotUsedAsValues": "error",
+		"lib": ["dom", "ESNext"],
 		"strict": true
 	},
 	"exclude": [
 		"node_modules",
 		"dist"
-	],
-	"lib": [
-		"dom",
-		"ES2020"
 	],
 	"references": []
 }

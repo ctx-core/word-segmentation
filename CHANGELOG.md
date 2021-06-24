@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 6.0.8
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.11
+  - @ctx-core/function@19.1.8
+  - @ctx-core/queue@5.0.8
+  - @ctx-core/string@8.0.9
+
 ## 6.0.7
 
 ### Patch Changes
