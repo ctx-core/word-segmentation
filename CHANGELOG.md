@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 6.0.11
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.16
+  - @ctx-core/function@19.1.10
+  - @ctx-core/queue@5.0.9
+  - @ctx-core/string@8.0.11
+
 ## 6.0.10
 
 ### Patch Changes
