@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 6.1.0
+
+### Minor Changes
+
+- aa instead of a2,aaa instead of a3
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.3.0
+
 ## 6.0.17
 
 ### Patch Changes

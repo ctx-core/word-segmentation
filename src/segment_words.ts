@@ -17,9 +17,9 @@ export async function segment_words(
 	if (!top_aspell) {
 		top_aspell = new top_Aspell(compound_aspell)
 	}
-	const corrected_word_token_a2 = await _corrected_word_token_a2()
+	const corrected_word_token_aa = await corrected_word_token_aa_()
 	return (
-		flatten(corrected_word_token_a2)
+		flatten(corrected_word_token_aa)
 			.join(' ')
 			.trim()
 			.replace(/\s+,\s+/g, ', ')
@@ -28,7 +28,7 @@ export async function segment_words(
 			.replace(/\s+\./g, '.')
 			.replace(/\s+/g, ' ')
 	)
-	async function _corrected_word_token_a2() {
+	async function corrected_word_token_aa_() {
 		const token_a = token_a_(phrases)
 		const promise_a =
 			map<string, Promise<string[]>>(token_a,
