@@ -1,5 +1,19 @@
 # @ctx-core/word-segmentation
 
+## 7.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.0
+  - @ctx-core/function@20.0.0
+  - @ctx-core/queue@6.0.0
+  - @ctx-core/string@9.0.0
+
 ## 6.1.0
 
 ### Minor Changes

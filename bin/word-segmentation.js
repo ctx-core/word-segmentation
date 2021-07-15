@@ -1,15 +1,14 @@
 #!/usr/bin/env node
-require = require('esm')(module)
-const { createInterface } = require('readline')
-const { _queue } = require('@ctx-core/queue')
-const { segment__words } = require('../lib')
-main().then()
+import { createInterface } from 'readline'
+import { queue_ } from '@ctx-core/queue'
+import { words_segment } from '../dist'
+await main()
 async function main() {
 	const stdin_rl = createInterface(process.stdin)
-	const queue = _queue()
+	const queue = queue_()
 	stdin_rl.on('line', line => {
 		queue.add(async () => {
-			const compound_words = await segment__words(line)
+			const compound_words = await words_segment(line)
 			process.stdout.write(`${compound_words}\n`)
 		})
 	})
