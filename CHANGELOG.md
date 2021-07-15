@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.2
+
+### Patch Changes
+
+- fix: "type": "module"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.2
+  - @ctx-core/function@20.0.2
+  - @ctx-core/queue@6.0.2
+  - @ctx-core/string@9.0.2
+
 ## 7.0.1
 
 ### Patch Changes
