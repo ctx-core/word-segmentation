@@ -1,7 +1,7 @@
 import { ReadableStream, WritableStream } from 'memory-streams'
 import { createInterface } from "readline"
-import { word_segmentation_streams_ } from './word_segmentation_streams_'
-import { segment_words } from './segment_words'
+import { word_segmentation_streams_ } from './word_segmentation_streams_.js'
+import { segment_words } from './segment_words.js'
 export function compound_words_stream_a_() {
 	const word_segmentation_streams = word_segmentation_streams_()
 	const readable = new ReadableStream('')

@@ -1,4 +1,4 @@
-import type { CompoundAspell } from './CompoundAspell'
+import type { CompoundAspell } from './CompoundAspell.js'
 export function compound_line(this:CompoundAspell, line: string):void {
 	if (!line) return
 	const { queue } = this

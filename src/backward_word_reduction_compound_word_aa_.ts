@@ -1,5 +1,5 @@
 import { each, sort } from '@ctx-core/array'
-import type { Aspell } from './Aspell'
+import type { Aspell } from './Aspell.js'
 export async function backward_word_reduction_compound_word_aa_(
 	word:string, compound_aspell:Aspell
 ):Promise<string[][]> {

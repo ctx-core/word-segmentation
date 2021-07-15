@@ -1,4 +1,4 @@
-import type { words_segment_opts_T } from './words_segment_opts_T'
+import type { words_segment_opts_T } from './words_segment_opts_T.js'
 export function word_segmentation_streams_close(word_segmentation_streams:words_segment_opts_T) {
 	const {
 		top_aspell,

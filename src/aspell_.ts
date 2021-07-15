@@ -1,4 +1,4 @@
-import { Aspell } from './Aspell'
+import { Aspell } from './Aspell.js'
 export function aspell_(line_cb:(line:string)=>void) {
 	return new Aspell(line_cb)
 }

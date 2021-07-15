@@ -1,8 +1,8 @@
 import { flatten, map } from '@ctx-core/array'
-import { CompoundAspell } from './CompoundAspell'
-import { top_Aspell } from './top_Aspell'
-import { token_a_ } from './token_a_'
-import type { words_segment_opts_T } from './words_segment_opts_T'
+import { CompoundAspell } from './CompoundAspell.js'
+import { top_Aspell } from './top_Aspell.js'
+import { token_a_ } from './token_a_.js'
+import type { words_segment_opts_T } from './words_segment_opts_T.js'
 export async function segment_words(
 	phrases:string,
 	{

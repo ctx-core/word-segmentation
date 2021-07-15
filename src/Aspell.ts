@@ -1,6 +1,6 @@
 import { ChildProcessWithoutNullStreams, spawn } from 'child_process'
 import { createInterface } from 'readline'
-import type { aspell_queue_obj_T } from './aspell_queue_obj_T'
+import type { aspell_queue_obj_T } from './aspell_queue_obj_T.js'
 export class Aspell {
 	child_process:ChildProcessWithoutNullStreams
 	private $queue = [] as aspell_queue_obj_T[]

@@ -1,6 +1,6 @@
 import { map, reduce, reject as a_reject, sort } from '@ctx-core/array'
-import { backward_word_reduction_compound_word_aa_ } from './backward_word_reduction_compound_word_aa_'
-import type { Aspell } from './Aspell'
+import { backward_word_reduction_compound_word_aa_ } from './backward_word_reduction_compound_word_aa_.js'
+import type { Aspell } from './Aspell.js'
 export async function word_reduction_compound_word_a_(word:string, compound_aspell:Aspell):Promise<string[]> {
 	const compound_word_aa = await backward_word_reduction_compound_word_aa_(word, compound_aspell)
 	const cleaned_compound_word_aa =
