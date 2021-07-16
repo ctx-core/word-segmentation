@@ -1,5 +1,27 @@
 # @ctx-core/word-segmentation
 
+## 7.0.9
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/function@20.0.10
+  - @ctx-core/queue@6.0.9
+  - @ctx-core/string@9.0.9
+
+## 7.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/function@20.0.9
+  - @ctx-core/queue@6.0.8
+  - @ctx-core/string@9.0.8
+
 ## 7.0.7
 
 ### Patch Changes
