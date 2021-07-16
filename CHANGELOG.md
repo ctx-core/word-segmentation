@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.6
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/function@20.0.7
+  - @ctx-core/queue@6.0.6
+  - @ctx-core/string@9.0.6
+
 ## 7.0.5
 
 ### Patch Changes
