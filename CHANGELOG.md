@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.7
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.9
+  - @ctx-core/function@20.0.8
+  - @ctx-core/queue@6.0.7
+  - @ctx-core/string@9.0.7
+
 ## 7.0.6
 
 ### Patch Changes
