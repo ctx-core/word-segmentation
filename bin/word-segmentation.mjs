@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { createInterface } from 'readline'
 import { queue_ } from '@ctx-core/queue'
-import { words_segment } from '../dist/index.js'
+import { words_segment } from '../dist/index.mjs'
 await main()
 async function main() {
 	const stdin_rl = createInterface(process.stdin)
