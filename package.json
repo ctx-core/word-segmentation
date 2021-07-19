@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "7.0.10",
+	"version": "7.0.11",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",
@@ -22,9 +22,11 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		"require": "./dist/index.cjs",
-		"import": "./dist/index.js",
-		"package.json": "./package.json"
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
 	},
 	"bin": {
 		"word-segmentation": "./bin/word-segmentation.mjs"
@@ -37,10 +39,10 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.12",
-		"@ctx-core/function": "workspace:^20.0.11",
-		"@ctx-core/queue": "workspace:^6.0.10",
-		"@ctx-core/string": "workspace:^9.0.10",
+		"@ctx-core/array": "workspace:^23.0.13",
+		"@ctx-core/function": "workspace:^20.0.12",
+		"@ctx-core/queue": "workspace:^6.0.11",
+		"@ctx-core/string": "workspace:^9.0.11",
 		"esm": "^3.2.25",
 		"memory-streams": "^0.1.3"
 	},
