@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "7.0.16",
+	"version": "7.0.17",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",

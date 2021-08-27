@@ -21,10 +21,10 @@ export async function top_line(this:top_Aspell, line:string) {
 		}
 		compound_word_a = await compound_word_a_(word, compound_aspell)
 		resolve(compound_word_a)
-	} catch (err) {
+	} catch (err:unknown) {
 		console.error(err)
 		console.debug(err)
-		reject(err)
+		reject(err as Error)
 	}
 }
 export {

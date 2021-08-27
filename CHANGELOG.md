@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.0.17
+
+### Patch Changes
+
+- fix: typescript upgrade: build
+
 ## 7.0.16
 
 ### Patch Changes
