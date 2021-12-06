@@ -39,7 +39,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.30",
-		"@ctx-core/function": "workspace:^20.2.10",
+		"@ctx-core/function": "workspace:^20.2.11",
 		"@ctx-core/queue": "workspace:^6.1.6",
 		"@ctx-core/string": "workspace:^9.0.28",
 		"memory-streams": "^0.1.3"
