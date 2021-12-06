@@ -1,5 +1,15 @@
 # @ctx-core/word-segmentation
 
+## 7.0.31
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/queue@6.1.7
+  - @ctx-core/string@9.0.30
+
 ## 7.0.30
 
 ### Patch Changes
