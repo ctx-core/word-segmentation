@@ -1,5 +1,5 @@
-import type { top_Aspell } from './top_Aspell.js'
 import { compound_word_a_ } from './compound_word_a_.js'
+import type { top_Aspell } from './top_Aspell.js'
 export async function top_line(this:top_Aspell, line:string) {
 	if (!line) return
 	const {
