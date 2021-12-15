@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.33
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/function@20.2.13
+  - @ctx-core/queue@6.1.9
+  - @ctx-core/string@9.0.32
+
 ## 7.0.32
 
 ### Patch Changes
