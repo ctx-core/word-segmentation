@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "7.0.35",
+	"version": "7.0.36",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",
@@ -21,7 +21,7 @@
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
-			"types": "./src/index.ts"
+			"types": "./dist/index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -31,15 +31,17 @@
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile": "npm run compile_source && npm run compile_declaration",
+		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.36",
-		"@ctx-core/function": "workspace:^20.2.15",
-		"@ctx-core/queue": "workspace:^6.1.11",
-		"@ctx-core/string": "workspace:^9.0.34",
+		"@ctx-core/array": "workspace:^23.0.37",
+		"@ctx-core/function": "workspace:^20.2.16",
+		"@ctx-core/queue": "workspace:^6.1.12",
+		"@ctx-core/string": "workspace:^9.0.35",
 		"memory-streams": "^0.1.3"
 	},
 	"devDependencies": {

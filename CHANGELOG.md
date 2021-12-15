@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.36
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/array@23.0.37
+  - @ctx-core/function@20.2.16
+  - @ctx-core/queue@6.1.12
+  - @ctx-core/string@9.0.35
+
 ## 7.0.35
 
 ### Patch Changes
