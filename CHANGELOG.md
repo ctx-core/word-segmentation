@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.35
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/function@20.2.15
+  - @ctx-core/queue@6.1.11
+  - @ctx-core/string@9.0.34
+
 ## 7.0.34
 
 ### Patch Changes
