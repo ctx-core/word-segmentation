@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.39
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/function@20.2.19
+  - @ctx-core/queue@6.1.15
+  - @ctx-core/string@9.0.38
+
 ## 7.0.38
 
 ### Patch Changes
