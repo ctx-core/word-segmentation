@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.40
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/function@20.2.20
+  - @ctx-core/queue@6.1.16
+  - @ctx-core/string@9.0.39
+
 ## 7.0.39
 
 ### Patch Changes
