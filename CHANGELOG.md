@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.38
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/function@20.2.18
+  - @ctx-core/queue@6.1.14
+  - @ctx-core/string@9.0.37
+
 ## 7.0.37
 
 ### Patch Changes
