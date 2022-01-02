@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.41
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/function@20.2.21
+  - @ctx-core/queue@6.1.17
+  - @ctx-core/string@9.0.40
+
 ## 7.0.40
 
 ### Patch Changes
