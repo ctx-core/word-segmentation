@@ -39,8 +39,8 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.1.0",
-		"@ctx-core/function": "workspace:^20.2.21",
+		"@ctx-core/array": "workspace:^23.1.1",
+		"@ctx-core/function": "workspace:^20.2.22",
 		"@ctx-core/queue": "workspace:^6.1.17",
 		"@ctx-core/string": "workspace:^9.0.40",
 		"memory-streams": "^0.1.3"
