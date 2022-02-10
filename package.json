@@ -39,10 +39,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/function": "workspace:*",
-		"@ctx-core/queue": "workspace:^6.2.0",
-		"@ctx-core/string": "workspace:^10.0.1",
+		"@ctx-core/array": "*",
+		"@ctx-core/function": "*",
+		"@ctx-core/queue": "^6.2.0",
+		"@ctx-core/string": "^10.0.1",
 		"memory-streams": "^0.1.3"
 	},
 	"devDependencies": {
