@@ -1,5 +1,18 @@
 # @ctx-core/word-segmentation
 
+## 7.0.51
+
+### Patch Changes
+
+- update dependencies
+
+## 7.0.50
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/queue@7.0.0
+
 ## 7.0.49
 
 ### Patch Changes
