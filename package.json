@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "7.0.55",
+	"version": "7.0.56",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",
@@ -37,10 +37,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.1.5",
-		"@ctx-core/function": "^20.7.0",
-		"@ctx-core/queue": "^7.1.1",
-		"@ctx-core/string": "^10.0.6",
+		"@ctx-core/array": "workspace:^26.2.0",
+		"@ctx-core/function": "workspace:^20.7.0",
+		"@ctx-core/queue": "workspace:^7.1.1",
+		"@ctx-core/string": "workspace:^10.0.7",
 		"memory-streams": "^0.1.3"
 	},
 	"devDependencies": {
