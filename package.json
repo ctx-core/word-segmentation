@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.7.8",
-		"@ctx-core/function": "^21.3.0",
+		"@ctx-core/function": "^21.4.0",
 		"@ctx-core/queue": "^7.3.2",
 		"@ctx-core/string": "^10.1.10",
 		"memory-streams": "^0.1.3"
