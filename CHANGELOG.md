@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.0.85
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 7.0.84
 
 ### Patch Changes
