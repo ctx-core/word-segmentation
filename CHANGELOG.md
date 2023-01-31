@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.0.90
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/function@21.6.1
+  - @ctx-core/queue@7.3.3
+  - @ctx-core/string@10.1.12
+
 ## 7.0.89
 
 ### Patch Changes
