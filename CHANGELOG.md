@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.1.0
+
+### Minor Changes
+
+- - word_segmentation_streams\_\_ret_T
+
 ## 7.0.102
 
 ### Patch Changes
