@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.1.29
+
+### Patch Changes
+
+- @ctx-core/array: ^26.12.1 -> ^26.12.2
+
 ## 7.1.28
 
 ### Patch Changes
