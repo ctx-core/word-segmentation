@@ -1,5 +1,14 @@
 # @ctx-core/word-segmentation
 
+## 7.1.33
+
+### Patch Changes
+
+- @ctx-core/function: ^21.13.0 -> ^21.13.1
+- Updated dependencies
+  - @ctx-core/array@26.12.6
+  - @ctx-core/string@12.0.4
+
 ## 7.1.32
 
 ### Patch Changes
