@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.1.60
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/function@21.17.19
+  - @ctx-core/queue@7.5.21
+  - @ctx-core/string@12.1.19
+
 ## 7.1.59
 
 ### Patch Changes
