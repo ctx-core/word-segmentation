@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.1.65
+
+### Patch Changes
+
+- @ctx-core/queue: ^7.8.0 -> ^7.9.0
+
 ## 7.1.64
 
 ### Patch Changes
