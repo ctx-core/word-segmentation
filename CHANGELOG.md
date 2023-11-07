@@ -1,5 +1,12 @@
 # @ctx-core/word-segmentation
 
+## 7.1.109
+
+### Patch Changes
+
+- @ctx-core/string: ^12.3.25 -> ^12.3.26
+- @ctx-core/queue: ^7.9.4 -> ^7.9.5
+
 ## 7.1.108
 
 ### Patch Changes
