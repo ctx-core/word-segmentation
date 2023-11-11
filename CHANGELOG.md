@@ -1,5 +1,30 @@
 # @ctx-core/word-segmentation
 
+## 7.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.0
+  - @ctx-core/function@21.21.0
+  - @ctx-core/queue@7.10.0
+  - @ctx-core/string@12.4.0
+
 ## 7.1.111
 
 ### Patch Changes
