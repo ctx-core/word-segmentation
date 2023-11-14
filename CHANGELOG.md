@@ -1,5 +1,17 @@
 # @ctx-core/word-segmentation
 
+## 7.2.1
+
+### Patch Changes
+
+- tsx: ^4.0.0 -> ^4.1.2
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.1
+  - @ctx-core/function@21.21.1
+  - @ctx-core/queue@7.10.1
+  - @ctx-core/string@12.4.1
+
 ## 7.2.0
 
 ### Minor Changes
