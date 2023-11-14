@@ -1,5 +1,16 @@
 # @ctx-core/word-segmentation
 
+## 7.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/array@27.0.3
+  - @ctx-core/function@21.21.3
+  - @ctx-core/queue@7.10.3
+  - @ctx-core/string@12.4.3
+
 ## 7.2.2
 
 ### Patch Changes
