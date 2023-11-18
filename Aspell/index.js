@@ -1,6 +1,6 @@
 import { spawn } from 'child_process'
 import { createInterface } from 'readline'
-/** @typedef {import('../_types/index.d.ts').aspell_queue_obj_T}.aspell_queue_obj_T */
+/** @typedef {import('../_types/index.d.ts').aspell_queue_obj_T} */
 export class Aspell {
 	/**
 	 * @returns {aspell_queue_obj_T[]}
