@@ -1,5 +1,5 @@
-import { map } from '@ctx-core/array'
-import { title_case_ } from '@ctx-core/string'
+import { map } from 'ctx-core/array'
+import { title_case_ } from 'ctx-core/string'
 /**
  * @param {string}line
  * @returns {string[]|undefined}

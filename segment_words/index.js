@@ -1,14 +1,16 @@
-import { flatten, map } from '@ctx-core/array'
+/// <reference types="../types/index.d.ts" />
+import { flatten, map } from 'ctx-core/array'
 import { CompoundAspell } from '../CompoundAspell/index.js'
 import { top_Aspell } from '../top_Aspell/index.js'
 import { token_a_ } from '../token_a_/index.js'
 /**
  * @param {string}phrases
- * @param {import('../_types').words_segment_opts_T}opts
+ * @param {words_segment_opts_T}opts
  * @returns {Promise<string>}
  */
 export async function segment_words(
-	phrases, opts = {}
+	phrases,
+	opts = {}
 ) {
 	let { top_aspell, compound_aspell } = opts
 	if (!phrases) return phrases
@@ -19,7 +21,16 @@ export async function segment_words(
 		top_aspell = new top_Aspell(compound_aspell)
 	}
 	const corrected_word_token_aa = await corrected_word_token_aa_()
-	return flatten(corrected_word_token_aa).join(' ').trim().replace(/\s+,\s+/g, ', ').replace(/\s+-\s+/g, '-').replace(/\s+\/\s+/g, '-').replace(/\s+\./g, '.').replace(/\s+/g, ' ')
+	return (
+		flatten(corrected_word_token_aa)
+			.join(' ')
+			.trim()
+			.replace(/\s+,\s+/g, ', ')
+			.replace(/\s+-\s+/g, '-')
+			.replace(/\s+\/\s+/g, '-')
+			.replace(/\s+\./g, '.')
+			.replace(/\s+/g, ' ')
+	)
 	async function corrected_word_token_aa_() {
 		const token_a = token_a_(phrases)
 		const promise_a = map(token_a, (token)=>new Promise(async (resolve)=>{

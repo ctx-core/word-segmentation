@@ -1,5 +1,5 @@
 /**
- * @param {import('../_types/index.d.ts').words_segment_opts_T}word_segmentation_streams
+ * @param {import('../_types/index.d.ts').segment_words_config_T}word_segmentation_streams
  */
 export function word_segmentation_streams_close(word_segmentation_streams) {
 	const {

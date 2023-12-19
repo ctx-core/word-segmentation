@@ -1,7 +1,8 @@
-import { each, sort } from '@ctx-core/array'
+/// <reference types="../Aspell/index.d.ts" />
+import { each, sort } from 'ctx-core/array'
 /**
  * @param {string}word
- * @param {import('../Aspell').Aspell}compound_aspell
+ * @param {Aspell}compound_aspell
  * @returns {Promise<string[][]>}
  */
 export async function backward_word_reduction_compound_word_aa_(

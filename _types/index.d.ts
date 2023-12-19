@@ -5,7 +5,7 @@ export interface aspell_queue_obj_T {
 	resolve(word_a:null|string[]):void
 	reject(error:Error):void
 }
-export interface words_segment_opts_T {
+export interface segment_words_config_T {
 	top_aspell:top_Aspell
 	compound_aspell:CompoundAspell
 }

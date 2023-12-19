@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 import { createInterface } from 'readline'
-import { queue_ } from '@ctx-core/queue'
-import { words_segment } from '../index.js'
+import { queue_ } from 'ctx-core/queue'
+import { segment_words } from '../segment_words/index.js'
 await main()
 async function main() {
 	const stdin_rl = createInterface(process.stdin)
 	const queue = queue_()
 	stdin_rl.on('line', line => {
 		queue.add(async () => {
-			const compound_words = await words_segment(line)
+			const compound_words = await segment_words(line)
 			process.stdout.write(`${compound_words}\n`)
 		})
 	})
