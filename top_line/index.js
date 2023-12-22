@@ -29,7 +29,6 @@ export async function top_line(line) {
 		resolve(compound_word_a)
 	} catch (err) {
 		console.error(err)
-		console.debug(err)
 		reject(err)
 	}
 }

@@ -1,5 +1,13 @@
 # @ctx-core/word-segmentation
 
+## 7.2.64
+
+### Patch Changes
+
+- top_line: - console.debug
+- Updated dependencies
+  - ctx-core@5.4.0
+
 ## 7.2.63
 
 ### Patch Changes
