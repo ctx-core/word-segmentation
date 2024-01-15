@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import type { ChildProcessWithoutNullStreams } from 'child_process'
+import type { ChildProcessWithoutNullStreams } from 'node:child_process'
 import type { aspell_queue_obj_T } from '../_types/index.js'
 export declare class Aspell {
 	child_process:ChildProcessWithoutNullStreams

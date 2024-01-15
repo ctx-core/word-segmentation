@@ -1,5 +1,13 @@
 # @ctx-core/word-segmentation
 
+## 7.2.89
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 7.2.88
 
 ### Patch Changes
