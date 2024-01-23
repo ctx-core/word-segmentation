@@ -59,7 +59,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.27.0",
+		"ctx-core": "^5.27.1",
 		"memory-streams": "^0.1.3"
 	},
 	"devDependencies": {
