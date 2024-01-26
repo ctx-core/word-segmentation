@@ -1,5 +1,11 @@
 # @ctx-core/word-segmentation
 
+## 7.2.111
+
+### Patch Changes
+
+- ctx-core: ^5.29.0 -> ^5.30.0
+
 ## 7.2.110
 
 ### Patch Changes
