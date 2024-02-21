@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/word-segmentation",
-	"version": "7.2.141",
+	"version": "7.2.142",
 	"description": "Splits compound words into separate words using aspell",
 	"keywords": [
 		"ctx-core",
@@ -59,7 +59,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.4.3",
+		"ctx-core": "^6.4.4",
 		"memory-streams": "^0.1.3"
 	},
 	"devDependencies": {
