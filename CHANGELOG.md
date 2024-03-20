@@ -1,5 +1,13 @@
 # @ctx-core/word-segmentation
 
+## 7.2.157
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 7.2.156
 
 ### Patch Changes
